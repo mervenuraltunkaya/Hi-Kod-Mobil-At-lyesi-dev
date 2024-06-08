@@ -84,9 +84,9 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(20.0), // Padding ekleyin
+                padding: EdgeInsets.all(20.0),
                 child: SizedBox(
-                  width: 200, // Genişliği ayarlayın
+                  width: 200, 
                   child: DropdownButton<String>(
                     items: const [
                       DropdownMenuItem(
@@ -114,7 +114,7 @@ class _MyAppState extends State<MyApp> {
               ),
 
               Padding(
-                padding: const EdgeInsets.all(20.0), // Padding değerini ayarlayın
+                padding: const EdgeInsets.all(20.0),
                 child: SwitchListTile(
                   title: Text("Sigara içiyor musunuz?"),
                   tileColor: Color(0xFFD9C3B0),
@@ -124,7 +124,7 @@ class _MyAppState extends State<MyApp> {
                       isSwitched = _sigaraMi;
                     });
                     },
-                  activeColor: Color(0xFF730217),// Switch çubuğunun etkin (açık) durumda olduğunda rengi
+                  activeColor: Color(0xFF730217),// Switch çubuğu açıldığında rengi
 
                 ),
               ),
